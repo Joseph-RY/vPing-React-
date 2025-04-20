@@ -1,0 +1,143 @@
+@media (max-width: 550px) {
+
+    header {
+        height: 1200px;
+        padding-right: 5%;
+    }
+
+    main {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .introText,
+    .sectionImage,
+    .sectionText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .navBtn {
+        display: none;
+    }
+
+    .navBar {
+        display: flex;
+    }
+
+
+    .intro {
+        flex-direction: column-reverse;
+    }
+
+    .introAction button {
+        align-self: center;
+    }
+
+    .introImage {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .introImage img {
+        width: 100%;
+        position: static;
+    }
+
+    .achivments {
+        gap: 20px;
+    }
+
+    .achivments img:last-child {
+        display: none;
+    }
+
+    .section,
+    .vpn,
+    .detailsContainer,
+    footer,
+    .footerInfo,
+    .footerIntro {
+        flex-direction: column;
+    }
+
+    .laptopIcons {
+        flex-wrap: wrap;
+    }
+
+    .dataBase {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .cards article:nth-child(2) {
+        width: 90%;
+    }
+
+
+    .cards article:first-child,
+    .cards article:nth-child(3) {
+        display: none;
+    }
+
+    .premiumBox {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .premiumBox article {
+        width: 100%;
+    }
+
+    .vpnTitle {
+        padding: 0 5%;
+    }
+
+    .vpnContent {
+        flex-direction: column-reverse;
+    }
+
+    .vpnBlueBox {
+        width: 87%;
+        padding: 25px 35px;
+    }
+
+    .stars {
+        display: none;
+    }
+
+    .quotes {
+        display: none;
+    }
+
+    .vpnQuote {
+        font-size: 13px;
+    }
+    
+    footer {
+        height: auto;
+        padding-top: 250px;
+    }
+
+    .footerIntro div:first-child {
+        display: none;
+    }
+
+    .footerLogo {
+        width: 100%;
+    }
+
+    .footerInfo {
+        gap: 32px;
+    }
+
+}
