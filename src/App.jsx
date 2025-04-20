@@ -25,10 +25,10 @@ import selena from "./assets/Selena Gomez.png";
 import arrow from "./assets/down arrow.png";
 import footer from "./assets/footer.png";
 import trustpilot from "./assets/trustpilot(2).png";
-import facebook from "./assets/facebook.png"
-import twitter from "./assets/twitter.png"
-import instagram from "./assets/instagram.png"
-import linkedin from "./assets/linkedin.png"
+import facebook from "./assets/facebook.png";
+import twitter from "./assets/twitter.png";
+import instagram from "./assets/instagram.png";
+import linkedin from "./assets/linkedin.png";
 
 const App = () => {
   return (
