@@ -13,6 +13,12 @@
         font-size: 38px;
     }
 
+    nav img:first-child,
+    .achivments img,
+    .sectionIcons img {
+        width: 100%;
+    }
+
     .introText,
     .sectionImage,
     .sectionText {
@@ -65,7 +71,8 @@
     .detailsContainer,
     footer,
     .footerInfo,
-    .footerIntro {
+    .footerIntro,
+    .vpnDates {
         flex-direction: column;
     }
 
@@ -122,7 +129,7 @@
     .vpnQuote {
         font-size: 13px;
     }
-    
+
     footer {
         height: auto;
         padding-top: 250px;
