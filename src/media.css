@@ -13,7 +13,7 @@
         font-size: 38px;
     }
 
-    nav img:first-child,
+    .logo,
     .achivments img,
     .sectionIcons img {
         width: 100%;

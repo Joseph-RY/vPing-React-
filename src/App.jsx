@@ -36,7 +36,9 @@ const App = () => {
       <div className="all">
         <header>
           <nav>
-            <img src={logo} alt="" />
+            <div>
+              <img className="logo" src={logo} alt="" />
+            </div>
             <ul className="navList">
               <li>
                 <a href="#">About</a>
